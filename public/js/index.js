@@ -131,7 +131,7 @@ function sendTransaction(isAdding) {
     else {
       // clear form
       nameEl.value = "";
-      amountEl.value = "";
+      amountEl.value = ""; 
     }
   })
   .catch(err => {
